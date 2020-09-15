@@ -8,6 +8,9 @@ def test_secondProgram():
     print('Hello again')
 
 
+def test_thirdProgram():
+    print('Hello again & again')
+
 def test_math_mult():
     a = 10
     b = 20

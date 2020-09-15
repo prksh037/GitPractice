@@ -18,3 +18,7 @@ def test_math_sub():
     assert b-a == 10, 'Subtraction is not correct'
 
 
+def test_math_moduloDiv():
+    a = 10
+    b = 20
+    assert a % b == 0, 'Modulo division'
