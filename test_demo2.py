@@ -3,7 +3,7 @@ import pytest
 @pytest.mark.skip
 def test_secondProgram():
     msg = 'Hello'
-    assert msg == 'Hi', 'Hello & Hi are different'
+    assert msg == 'Hello', 'Hello & Hi are different'
 
 @pytest.mark.run
 def test_math_add():
